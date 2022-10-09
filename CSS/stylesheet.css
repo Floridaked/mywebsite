@@ -1,5 +1,7 @@
 h1 {
 		color: darkviolet;
+		font-size: 50px;
+		font-family: Montserrat, sans-serif;
 }
 
 h2 {
@@ -18,8 +20,14 @@ body {
 ul {
 
 	display: inline-block;
+	text-align: middle;
 }
  
 ol {
 	display: inline-block;
+}
+
+li {
+	text-align: left;
+	font-size: 20px;
 }
