@@ -1,55 +1,83 @@
 h1 {
-		color: darkblue;
-		font-size: 50px;
-		font-family: Montserrat, sans-serif;
-		text-align: center;
+	color: darkblue;
+	font-size: 50px;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
 }
 
 h2 {
-		color: #3253ff;
+	color: black;
+	display: block;
+}
+
+header {
+	background-color: #A6CAD4;
 }
 
 p {
-	color: rgb(200,000,000);
-	text-align: center;
+	color: #334259;
 }
 
 body {
 	background-color: beige;
-	text-align: center;
+
 }
 
 ul {
-
-	display: inline-block;
-	text-align: center;
-}
- 
-ol {
-	display: inline-block;
-}
-
-li {
-	text-align: left;
+	list-style-type: none;
+	display:flex;
+	justify-content: center;
+	column-gap: 10px;
+	row-gap: 10px;
 	font-size: 20px;
 }
+
+
 nav {
 	background-color: lightblue;
 }
+
 #Monst {
 	font-family: "Montserrat", sans-serif;
-  }
+}
 
-.grid{
+.grid {
 	display: grid;
 	grid-template-columns: auto auto auto;
 
 }
-.log{
+
+.grid1 {
+	display: grid;
+	grid-template-columns: auto auto;
+	column-gap: 10px;
+}
+
+.log {
 	grid-column: 3/-1;
 }
 
-.title{
+.title {
 	grid-column: 2/3;
 	grid-row: 1/2;
+}
+
+.hutao {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}
+.huta{
+	grid-column: 2/3;
+	grid-row: 2/3;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: #A6CAD4;
 }
